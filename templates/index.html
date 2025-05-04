@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Analyzer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light"> <!-- Light gray background -->
+    <div class="container mt-5">
+        <div class="card shadow-sm"> <!-- White box with subtle shadow -->
+            <div class="card-body">
+                <h1 class="text-center text-dark">Password Strength Analyzer</h1>
+                <form method="POST" class="mt-3">
+                    <div class="mb-3">
+                        <input type="password" name="password" class="form-control" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Analyze Password</button>
+                </form>
+                <div class="mt-3">
+                    <p class="fw-bold text-secondary">{{ result }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (Optional, for interactive features) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
