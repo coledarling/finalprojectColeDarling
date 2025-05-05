@@ -13,6 +13,8 @@ def analyze_password(password):
         return "Weak: Password shouldn't be all letters."
     elif password.isnumeric():
         return "Weak: Password shouldn't be all numbers."
+    elif all(char in "!@#$%^&*()-_+=<>?/" for char in password):
+        return "Weak: Password shouldn't be only special characters."
     elif not any(char in "!@#$%^&*()-_+=<>?/" for char in password):
         return "Weak: Password should include at least one special character (!@#$%^&*()-_+=<>?/)."
     else:
