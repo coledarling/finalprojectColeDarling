@@ -1,6 +1,6 @@
-INF601 - Advanced Programming in Python  
-Cole Darling  
-Final Project  
+### INF601 - Advanced Programming in Python  
+### Cole Darling  
+### Final Project  
 
 ## Description
 This project is a Flask-based web application designed to analyze password strength and check whether a password has been exposed in known data breaches using the **Have I Been Pwned API**.  
