@@ -38,6 +38,6 @@ ex. Cole Darling
 
 ## Acknowledgments
 
-API Used: [Have I Been Pwned Password API](https://haveibeenpwned.com/) 
-Technologies: Flask, Requests, SHA-1 hashing
-Bootstrap: https://getbootstrap.com/
+- API Used: [Have I Been Pwned Password API](https://haveibeenpwned.com/) 
+- Technologies: Flask, Requests, SHA-1 hashing
+- Bootstrap: https://getbootstrap.com/
